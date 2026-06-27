@@ -505,7 +505,7 @@ export default function Home() {
               </h4>
               <ul className="space-y-2 text-sm">
                 <li>Dubai, United Arab Emirates</li>
-                <li>sales@ultratrade.ae</li>
+                <li>info@ultratradeuae.com</li>
                 <li>Electronic Components Distribution</li>
               </ul>
             </div>

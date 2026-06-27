@@ -428,7 +428,7 @@ export default function Home() {
               </p>
               <p>
                 <span className="font-semibold text-white">Email:</span>{" "}
-                sales@ultratrade.ae
+                info@ultratradeuae.com
               </p>
               <p>
                 <span className="font-semibold text-white">Business:</span>{" "}

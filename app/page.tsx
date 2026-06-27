@@ -134,9 +134,17 @@ export default function Home() {
             alt="Electronics components warehouse"
             fill
             priority
-            className="object-cover"
+            className="hero-image-motion object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-900/80 to-slate-900/35" />
+
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-900/85 to-slate-900/45" />
+
+          <div className="hero-circuit-grid absolute inset-0 opacity-30" />
+
+          <div className="hero-glow absolute left-0 top-0 h-72 w-72 rounded-full bg-teal-400/15 blur-3xl" />
+          <div className="hero-glow absolute bottom-10 right-20 h-96 w-96 rounded-full bg-cyan-500/15 blur-3xl" />
+
+          <div className="hero-scan-line absolute left-0 top-0 h-full w-1/3 bg-gradient-to-r from-transparent via-teal-300/10 to-transparent" />
         </div>
 
         <div className="relative z-10 mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:py-28">
@@ -175,7 +183,7 @@ export default function Home() {
           {/* QUOTE FORM */}
           <div
             id="quote"
-            className="rounded-2xl border border-white/20 bg-white/95 p-6 shadow-2xl backdrop-blur md:p-8"
+            className="relative rounded-2xl border border-white/20 bg-white p-6 shadow-2xl md:p-8"
           >
             <div className="mb-6">
               <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-teal-600">
